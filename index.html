@@ -1,116 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hotel in Dominicana</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <nav id="mainNavbar" class="navbar navbar-expand-md py=0 fixed-top">
-    <a
-      href="https://www.youtube.com/watch?v=v0LzM2Amy5U"
-      class="navbar-brand"
-      target="_blank"
-    >
-      <img
-        src="./imagesBotstrap/palm-tree.png"
-        alt="Palm tree"
-        class="navbar-image"
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel in Dominicana</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <nav id="navbar" class="navbar navbar-dark navbar-expand-md fixed-top px-2">
+      <a
+        href="https://www.youtube.com/watch?v=v0LzM2Amy5U"
+        class="navbar-brand border p-2"
+        target="_blank"
       >
-    </a>
-    <button
-      class="navbar-toggler"
-      data-toggle="collapse"
-      data-target="#navLinks"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div
-      class="collapse navbar-collapse"
-      id="navLinks"
-    >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="" class="nav-link">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">BOOK</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+        <img
+          src="./imagesBotstrap/palm-tree.png"
+          alt="Palm tree"
+          class="navbar-image"
+        >
+        <span class="logo">
+          Dominican Republic
+        </span>
+      </a>
+      <button
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navLinks"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">
+              HOME
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              ABOUT
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#book-form"
+              class="nav-link"
+              id="bookYourTickets"
+            >
+              BOOK
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <section class="container-fluid px-0 my-4">
-    <div class="row px-0 align-items-center">
-      <div class="col-md-6 pt-3">
-        <h2 class="text-center text-uppercase">
+    <section class="container-fluid header d-flex flex-column align-items-center justify-content-center" id="header">
+      <div class="row mx-0 ">
+        <h2 class="header__title display-4 text-center text-uppercase">
           Have a happy vacation!
           <br>
           Stay safe and enjoy
         </h2>
       </div>
-      <div class="col-md-6 d-flex justify-content-center">
-        <img
-          src="./imagesBotstrap/hamak.jpg"
-          alt="Hamak"
-          class="img-fluid"
-        >
-      </div>
-    </div>
-  </section>
-  <section class="container-fluid px-0 my-4">
-    <div class="row px-0 align-items-center">
-      <div class="col-md-6 d-flex justify-content-center">
-        <img
-          src="./imagesBotstrap/dominican_republic_travel_075_cayo_arena_1080.jpg"
-          alt="The sea"
-          class="img-fluid"
-        >
-      </div>
-      <div class="col-md-6 pt-3">
-        <p class="text-center text-uppercase px-4">Punta Cana is located on the eastern tip of the Dominican Republic, known for having the best hotel offer in the Caribbean, with majestic resorts on the first line of one of the best beaches in the Caribbean, with white sands and crystal clear waters and incredible crystal clear waters. natural landscapes. </p>
-      </div>
-    </div>
-  </section>
-  <section class="container-fluid px-0 my-4">
-    <div class="row px-0 align-items-center">
-      <div class="col-md-6 pt-3">
-        <p class="text-center text-uppercase px-4">Bavaro is one of the most developed beaches of Punta Cana with spectacular and wonderful resorts. This beach is considered one of the most beautiful beaches in the world according to UNESCO, it's a White Sandy beach with crystal clear water along with another beaches belong to Punta Cana with a length of about 4 kilometers. Bavaro beach has 4 Blue Flags certifications </p>
-      </div>
-      <div class="col-md-6 d-flex justify-content-center">
-        <img
-          src="./imagesBotstrap/beach.jpg"
-          alt="beach"
-          class="img-fluid"
-        >
-      </div>
-    </div>
-  </section>
-  <section class="container-fluid px-0 my-4">
-    <div class="row px-0 align-items-center">
-      <div class="col-md-6 pt-3">
-        <p class="text-center text-uppercase px-4">Spend your vacation in a hotel of the beautiful and award winning beaches of Punta Cana and Bavaro in Dominican Republic, with its majestic resorts and great facilities, would be the best vacations of your life.
-        </p>
-      </div>
-      <div class="col-md-6 d-flex justify-content-center">
-        <img
-          src="./imagesBotstrap/hotel1.jpg"
-          alt="beach"
-          class="img-fluid"
-        >
-      </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="container-fluid px-0" id="home">
+      <div class="row mx-0 mb-md-5 align-items-center">
+        <div class="col-md-6 py-4 text-center order-md-2">
+          <div class="row justify-content-center ">
+            <div class="col-10">
+              <h3>Punta Cana</h3>
+              <img
+                src="./imagesBotstrap/palm-tree.png"
+                alt="Palm tree"
+                class="navbar-image mb-2"
+              >
+              <p class="text-center text-uppercase">
+                Punta Cana is located on the eastern tip of the Dominican Republic, known for having the best hotel offer in the Caribbean, with majestic resorts on the first line of one of the best beaches in the Caribbean, with white sands and crystal clear waters and incredible crystal clear waters. natural landscapes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 px-0 align-self-stretch">
+          <img
+            src="./imagesBotstrap/dominican_republic_travel_075_cayo_arena_1080.jpg"
+            alt="The sea"
+            class="image"
+          >
+        </div>
+      </div>
+      <div class="row mx-0 mb-md-5 px-0 align-items-center" id="about">
+        <div class="col-md-6 py-4 text-center">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              <h3>Bavaro</h3>
+              <img
+                src="./imagesBotstrap/palm-tree.png"
+                alt="Palm tree"
+                class="navbar-image mb-2"
+              >
+              <p class="text-center text-uppercase">
+                Bavaro is one of the most developed beaches of Punta Cana with spectacular and wonderful resorts. This beach is considered one of the most beautiful beaches in the world according to UNESCO, it's a White Sandy beach with crystal clear water along with another beaches belong to Punta Cana with a length of about 4 kilometers. Bavaro beach has 4 Blue Flags certifications.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 px-0 align-self-stretch">
+          <img
+            src="./imagesBotstrap/beach.jpg"
+            alt="beach"
+            class="image"
+          >
+        </div>
+      </div>
+      <div class="row mx-0 mb-md-5 align-items-center">
+        <div class="col-md-6 py-4 order-md-2">
+          <p class="text-center text-uppercase px-4">Spend your vacation in a hotel of the beautiful and award winning beaches of Punta Cana and Bavaro in Dominican Republic, with its majestic resorts and great facilities, would be the best vacations of your life.
+          </p>
+        </div>
+        <div class="col-md-6 px-0 align-self-stretch">
+          <img
+            src="./imagesBotstrap/hotel1.jpg"
+            alt="beach"
+            class="image"
+          >
+        </div>
+      </div>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <section class="container reservation p-4" id="book-form">
+      <h2 class="text-center mb-4 text-uppercase">
+        Book your vacation
+      </h2>
+      <form>
+        <div class="form-group row align-items-center mb-2">
+          <div class="col-4">
+            <label class="mb-0" for="peopleAmount">
+              How many people are there in your group?
+            </label>
+          </div>
+          <div class="col-8">
+            <select
+              id="peopleAmount"
+              class="form-control"
+              required
+            >
+              <option selected>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row align-items-center mb-2">
+          <div class="col-4">
+            <label for="dataVisit" class="mb-0">
+              Data of visit
+            </label>
+          </div>
+          <div class="col-8">
+            <input
+              id="dataVisit"
+              type="date"
+              max="3000-12-31"
+              min="2021-01-01"
+              class="form-control"
+              required
+            >
+          </div>
+        </div>
+        <div class="form-group row align-items-center mb-2">
+          <div class="col-4">
+            <label for="yourName" class="mb-0">
+              Name
+            </label>
+          </div>
+          <div class="col-8">
+            <input
+              class="form-control"
+              id="yourName"
+              type="text"
+              placeholder="John Doe"
+              required
+            >
+          </div>
+        </div>
+        <div class="form-group row align-items-center mb-2">
+          <div class="col-4">
+            <label for="yourEmail" class="mb-0">
+              Email
+            </label>
+          </div>
+          <div class="col-8">
+            <input
+              class="form-control"
+              id="yourEmail"
+              type="email"
+              placeholder="johnjoe@example.com"
+              required
+            >
+          </div>
+        </div>
+        <div class="col-3">
+          <button type="submit" class="btn mb-3 btn-reservation">
+            Confirm reservation
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <footer id="contacts" class="mt-5 footer p-4 p-md-2">
+      <div class="container-fluid ">
+        <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mx-0">
+          <ul class="nav d-flex justify-content-center text-center text-primary text-uppercase">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">
+                  Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#book-form">
+                  Book
+                </a>
+            </li>
+          </ul>
+          <ul class="nav d-flex justify-content-center text-center text-uppercase my-3">
+            <li class="nav-item">
+                <a
+                  class="nav-link social"
+                  href="https://www.instagram.com/dominicanrepublic/"
+                  target="_blank">
+                    <span class="sr-only">
+                      Instagram
+                    </span>
+                    <i class="fab fa-instagram fa-2x text-secondary"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a
+                  class="nav-link social"
+                  href="https://www.facebook.com/"
+                  target="_blank">
+                    <span class="sr-only">
+                      Facebook
+                    </span>
+                    <i class="fab fa-facebook-square fa-2x text-secondary"></i>
+                  </a>
+            </li>
+            <li class="nav-item">
+                <a
+                  class="nav-link social"
+                  href="https://www.twitter.com/"
+                  target="_blank">
+                    <span class="sr-only">
+                      Twitter
+                    </span>
+                    <i class="fab fa-twitter fa-2x text-secondary"></i>
+                </a>
+            </li>
+          </ul>
+          <a href="#header" class="navbar-brand border p-2 align-self-center">
+            <img
+              src="./imagesBotstrap/palm-tree.png"
+              alt="Palm tree"
+              class="navbar-image"
+            >
+            <span class="logo">Dominican Republic</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/284ef0add4.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
